@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+  
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  border: 0;
+}
+
+header {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: #9644c6;
+}
+
+header h1 {
+  text-align: center;
+}
+
+aside {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: #4d2166;
+}
+
+aside h2 {
+  text-align: center;
+}
+
+main {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: #612a80;
+  padding: 0.5rem;
+}
+
+main .gremio {
+  background-color: #2c3c7d;
+}
+
+main .undertale{
+  background-color: #9f201c;
+}
+
+main .rap {
+  background-color: #33302d;
+}
+
+main .gremio img, .undertale img, .rap img {
+  height: 100px;
+  width: 115px;
+}
+
+footer {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: #43155c;
+}
